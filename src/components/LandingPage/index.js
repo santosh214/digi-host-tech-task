@@ -1,5 +1,6 @@
 import React from 'react';
 import './landingpage.css';
+import OnlineCourses from './OnlineCourses';
 export const LandingPage = () => {
   return (
     <>
@@ -10,7 +11,7 @@ export const LandingPage = () => {
             <h5 className="text-center py-3">48,000 Online courses for you</h5>
           </div>
           <div className="row  d-flex justify-content-center align-items-center">
-            <div className="col-6 d-flex justify-content-center mt-5 pt-3  myBox">
+            <div className="col-12 col-md-6 d-flex justify-content-center mt-5 pt-3  myBox">
               <div class="dropdown">
                 <button
                   class="btn btn-secondary dropdown-toggle themeColor border-0"
@@ -51,11 +52,15 @@ export const LandingPage = () => {
           </div>
           {/* img section */}
           <div className="col-12 d-flex justify-content-center pt-5">
-            <img src="./assets/study.avif" alt="study" className="rounded-3" />
+            <img
+              src="./assets/study.avif"
+              alt="study"
+              className="rounded-3 img-fluid"
+            />
           </div>
           <div className="col-12 pt-5">
-            <div className="row gap-4 d-flex justify-content-center">
-              <div className="col-3 myBoxInfo d-flex py-2">
+            <div className="row gap-4 d-flex justify-content-center px-2 px-md-0">
+              <div className="col-12 col-md-3 myBoxInfo d-flex py-2">
                 <div className="col-5 d-flex justify-content-center align-content-center align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -77,7 +82,7 @@ export const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-3 myBoxInfo d-flex py-2">
+              <div className="col-12 col-md-3 myBoxInfo d-flex py-2">
                 <div className="col-5 d-flex justify-content-center align-content-center align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -99,7 +104,7 @@ export const LandingPage = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-3 myBoxInfo d-flex py-2">
+              <div className="col-12 col-md-3 myBoxInfo d-flex py-2">
                 <div className="col-5 d-flex justify-content-center align-content-center align-items-center">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -125,6 +130,7 @@ export const LandingPage = () => {
           </div>
         </div>
       </div>
+      <OnlineCourses />
     </>
   );
 };

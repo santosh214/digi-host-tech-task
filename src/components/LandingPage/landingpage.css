@@ -11,3 +11,7 @@
   background-color: rgba(51, 134, 51, 0.199) !important;
   border-radius: 12px;
 }
+.myCardData small {
+  /* background-color: aqua; */
+  /* font-size: 10px; */
+}
