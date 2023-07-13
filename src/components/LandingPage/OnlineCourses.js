@@ -96,11 +96,11 @@ export default function OnlineCourses() {
               </li>
             </ul>
           </div>
-          <div className="col-12">
-            <div className="row">
+          <div className="col-12 ">
+            <div className="row ">
               {cardData.map((e) => {
                 return (
-                  <div className="col-4 my-3 ">
+                  <div className="col-12 col-md-4 my-3 d-flex justify-content-center">
                     <div
                       class="card shadow border-0 rounded-top-4"
                       style={{width: '18rem'}}

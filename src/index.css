@@ -1,6 +1,9 @@
 body {
   /* background-color: aliceblue !important; */
 }
+* {
+  /* border: 1px solid black; */
+}
 .themeColor {
   background-color: rgba(51, 134, 51, 0.699) !important;
   color: white !important;
