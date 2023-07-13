@@ -39,11 +39,11 @@ export default function OurInstructors() {
     }
   ];
   return (
-    <div className="container">
-      <h1>Our Instuctors</h1>
+    <div className="container py-5">
       <div className="row">
-        <div className="col-md-12">
-          <div className="row ">
+        <h1>Our Instuctors</h1>
+        <div className="col-12 ps-4 ">
+          <div className="row ps-3">
             {instructorData.map((e) => {
               return (
                 <div className="col-12 col-md-3 my-3 d-flex justify-content-center">
@@ -52,7 +52,7 @@ export default function OurInstructors() {
                     style={{width: '15rem'}}
                   >
                     <img
-                      src="./assets/study2.avif"
+                      src="./assets/study.avif"
                       class="card-img-top img-fluid"
                       alt="study2"
                     />

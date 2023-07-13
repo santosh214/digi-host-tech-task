@@ -8,7 +8,8 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study'
     },
     {
       id: 2,
@@ -16,7 +17,8 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study2'
     },
     {
       id: 2,
@@ -24,7 +26,8 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study3'
     },
     {
       id: 2,
@@ -32,7 +35,8 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study4'
     },
     {
       id: 2,
@@ -40,7 +44,8 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study5'
     },
     {
       id: 2,
@@ -48,13 +53,14 @@ export default function OnlineCourses() {
       subHeading: 'Lecture Admin in creative design',
       user: 2006,
       time: '12h 28m',
-      tag: 'Lectures'
+      tag: 'Lectures',
+      img: 'study2'
     }
   ];
 
   return (
     <>
-      <div className="container">
+      <div className="container py-5">
         <div className="row">
           <h1>Our Online Courses</h1>
           <div className="col-12 ps-3">

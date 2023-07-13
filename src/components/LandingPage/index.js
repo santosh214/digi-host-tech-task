@@ -2,6 +2,7 @@ import React from 'react';
 import './landingpage.css';
 import OnlineCourses from './OnlineCourses';
 import OurInstructors from './OurInstructors';
+import BlogsSection from './BlogsSection';
 export const LandingPage = () => {
   return (
     <>
@@ -133,6 +134,7 @@ export const LandingPage = () => {
       </div>
       <OnlineCourses />
       <OurInstructors />
+      <BlogsSection />
     </>
   );
 };
