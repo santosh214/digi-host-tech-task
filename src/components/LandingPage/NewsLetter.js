@@ -9,13 +9,13 @@ export default function NewsLetter() {
             <h2 className="text-center text-md-start">
               Subscribe Our NewsLetters
             </h2>
-            <p className="w-100 w-md-75 pt-2 text-center text-md-start">
+            <p className="  pt-2 text-center text-md-start myNewsLettertext">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Inventore debitis id eius temporibus officiis asperiores amet qui.
               Sit aperiam repellat, quaerat quod, dolores omnis sed odio tempora
               ipsa fuga nemo?
             </p>
-            <div className="position-absolute ladyImgdiv d-none d-md-grid">
+            <div className="position-absolute ladyImgdiv d-none d-md-none d-lg-grid">
               <img src="./assets/lady.png" alt="lady" />
             </div>
             <div className="inputBtn d-grid d-md-flex  align-items-baseline">

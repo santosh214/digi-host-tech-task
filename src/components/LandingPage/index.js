@@ -15,10 +15,10 @@ export const LandingPage = () => {
             <h5 className="text-center py-3">48,000 Online courses for you</h5>
           </div>
           <div className="row  d-flex justify-content-center align-items-center">
-            <div className="col-12 col-md-6 d-flex justify-content-center mt-5 pt-3  myBox">
+            <div className="col-12 col-md-6 d-grid d-md-flex justify-content-center mt-5 pt-3  myBox">
               <div class="dropdown">
                 <button
-                  class="btn btn-secondary dropdown-toggle themeColor border-0"
+                  class="btn btn-secondary dropdown-toggle themeColor border-0 w-100 mb-3 mb-md-0"
                   type="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"

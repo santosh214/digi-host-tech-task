@@ -74,8 +74,11 @@
 .myFooterRow ul li {
   padding: 10px 0px;
 }
+.myNewsLettertext {
+  width: 75%;
+}
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 777px) {
   .newsLetterCol {
     padding: 10px 10px !important;
   }
@@ -89,5 +92,8 @@
   .inputBtn button {
     height: 40px;
     border-radius: none;
+  }
+  .myNewsLettertext {
+    width: 100%;
   }
 }
