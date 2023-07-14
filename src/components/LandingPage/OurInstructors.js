@@ -42,14 +42,14 @@ export default function OurInstructors() {
     <div className="container py-5">
       <div className="row">
         <h1>Our Instuctors</h1>
-        <div className="col-12 ps-4 ">
+        <div className="col-12 ps-0 ps-md-4 ">
           <div className="row ps-3">
             {instructorData.map((e) => {
               return (
                 <div className="col-12 col-md-3 my-3 d-flex justify-content-center">
                   <div
                     class="card shadow border-0 rounded-top-4"
-                    style={{width: '15rem'}}
+                    style={{width: 'auto'}}
                   >
                     <img
                       src="./assets/study9.avif"

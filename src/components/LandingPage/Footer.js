@@ -90,7 +90,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="">
-                  <span>
+                  <span className="px-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -107,7 +107,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="">
-                  <span>
+                  <span className="px-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"
@@ -124,7 +124,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="">
-                  <span>
+                  <span className="px-1">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="16"

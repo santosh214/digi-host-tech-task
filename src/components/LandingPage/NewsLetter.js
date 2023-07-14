@@ -4,21 +4,31 @@ export default function NewsLetter() {
   return (
     <>
       <div className="container -fluid">
-        <div className="row d-flex justify-content-center mx-4 ms-5">
+        <div className="row d-flex justify-content-center mx-0 ms-0 mx-md-4 ms-md-5">
           <div className="col  pt-5 newsLetterCol position-relative  ">
-            <h2>Subscribe Our NewsLetters</h2>
-            <p className="w-75 pt-2">
+            <h2 className="text-center text-md-start">
+              Subscribe Our NewsLetters
+            </h2>
+            <p className="w-100 w-md-75 pt-2 text-center text-md-start">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit.
               Inventore debitis id eius temporibus officiis asperiores amet qui.
               Sit aperiam repellat, quaerat quod, dolores omnis sed odio tempora
               ipsa fuga nemo?
             </p>
-            <div className="position-absolute ladyImgdiv">
+            <div className="position-absolute ladyImgdiv d-none d-md-grid">
               <img src="./assets/lady.png" alt="lady" />
             </div>
-            <div className="inputBtn">
-              <input type="text" placeholder="Enter your email address" />
-              <button>Subscribe</button>
+            <div className="inputBtn d-grid d-md-flex  align-items-baseline">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Your email address"
+                style={{
+                  width: 'auto'
+                }}
+              />
+              <button className="my-2 my-md-0">Subscribe</button>
             </div>
           </div>
         </div>

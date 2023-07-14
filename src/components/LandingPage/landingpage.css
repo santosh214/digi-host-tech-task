@@ -45,6 +45,11 @@
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
   background-color: rgb(255, 136, 0);
+  width: inherit;
+  height: 40px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 .myFooterRow ul {
   list-style-type: none;
@@ -68,4 +73,21 @@
 
 .myFooterRow ul li {
   padding: 10px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .newsLetterCol {
+    padding: 10px 10px !important;
+  }
+  .inputBtn {
+    width: inherit;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+  }
+  .inputBtn button {
+    height: 40px;
+    border-radius: none;
+  }
 }
