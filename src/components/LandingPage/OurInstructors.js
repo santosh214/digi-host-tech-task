@@ -52,7 +52,7 @@ export default function OurInstructors() {
                     style={{width: '15rem'}}
                   >
                     <img
-                      src="./assets/study.avif"
+                      src="./assets/study9.avif"
                       class="card-img-top img-fluid"
                       alt="study2"
                     />

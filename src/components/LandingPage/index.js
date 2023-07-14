@@ -3,6 +3,8 @@ import './landingpage.css';
 import OnlineCourses from './OnlineCourses';
 import OurInstructors from './OurInstructors';
 import BlogsSection from './BlogsSection';
+import NewsLetter from './NewsLetter';
+import Footer from './Footer';
 export const LandingPage = () => {
   return (
     <>
@@ -135,6 +137,8 @@ export const LandingPage = () => {
       <OnlineCourses />
       <OurInstructors />
       <BlogsSection />
+      <NewsLetter />
+      <Footer />
     </>
   );
 };

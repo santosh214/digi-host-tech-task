@@ -9,7 +9,7 @@ export default function OnlineCourses() {
       user: 2006,
       time: '12h 28m',
       tag: 'Lectures',
-      img: 'study'
+      img: 'study5'
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function OnlineCourses() {
       user: 2006,
       time: '12h 28m',
       tag: 'Lectures',
-      img: 'study2'
+      img: 'study7'
     },
     {
       id: 2,
@@ -27,7 +27,7 @@ export default function OnlineCourses() {
       user: 2006,
       time: '12h 28m',
       tag: 'Lectures',
-      img: 'study3'
+      img: 'study6'
     },
     {
       id: 2,
@@ -36,7 +36,7 @@ export default function OnlineCourses() {
       user: 2006,
       time: '12h 28m',
       tag: 'Lectures',
-      img: 'study4'
+      img: 'study6'
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ export default function OnlineCourses() {
       user: 2006,
       time: '12h 28m',
       tag: 'Lectures',
-      img: 'study2'
+      img: 'study7'
     }
   ];
 
@@ -112,7 +112,7 @@ export default function OnlineCourses() {
                       style={{width: '18rem'}}
                     >
                       <img
-                        src="./assets/study2.avif"
+                        src={`./assets/${e.img}.avif`}
                         class="card-img-top img-fluid"
                         alt="study2"
                       />

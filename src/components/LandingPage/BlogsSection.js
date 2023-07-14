@@ -47,9 +47,9 @@ export default function BlogsSection() {
                     style={{width: '18rem'}}
                   >
                     <img
-                      src="./assets/study4.avif"
+                      src="./assets/study8.avif"
                       class="card-img-top img-fluid"
-                      alt="study2"
+                      alt="study8"
                     />
                     <div class="card-body border-top ">
                       <p className="text-secondary" style={{fontSize: '12px'}}>
